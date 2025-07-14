@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     'demo-website-gcc9.onrender.com',  # 👈 Render domain
     '127.0.0.1',
     'localhost',
+    'kidzee-elementary-school.onrender.com',
 ]
 
 
