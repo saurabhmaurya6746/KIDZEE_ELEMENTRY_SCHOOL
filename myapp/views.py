@@ -9,9 +9,9 @@ from django.conf import settings
 
 
 
-SCHOOL_NAME = "Your_School_Name"
-Mobile_number="1234567890"
-address='Your_School_Address'
+SCHOOL_NAME = "Prarthana International School"
+Mobile_number="7068323132"
+address='near City Station, Harbaspur, Madarpur, Jaunpur, Uttar Pradesh 222105'
 map_embed_code ='''<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.1768997342815!2d82.9868724!3d25.3318443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2dddc23c434d%3A0x807c120b49aa211e!2sKIDZEE%20ELEMENTARY%20SCHOOL(%20Alliance%20Partner)KENZEN%20SCHOOL!5e0!3m2!1sen!2sin!4v1752493194518!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'''
 
 def home(request):
