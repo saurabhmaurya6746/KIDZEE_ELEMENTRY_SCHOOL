@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'kidzee-elementary-school.onrender.com',
-    'https://kidzee-elementry-school.onrender.com',
+    'kidzee-elementry-school.onrender.com',
 ]
 
 
