@@ -12,7 +12,7 @@ from django.conf import settings
 SCHOOL_NAME = "RK sahu junior high school"
 Mobile_number="9999999999"
 address='QP87+G25 ज़मीन, रामपुर, ज़मीन, हिसमपुर, Uttar Pradesh 222001'
-map_embed_code ='''<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.130569406629!2d82.71004287523095!3d25.766250477349104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399039010272e529%3A0x98b4e3a8e9f358d6!2sRK%20sahu%20junior%20high%20school!5e0!3m2!1sen!2sin!4v1754565177004!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'''
+map_embed_code ='''<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.130569406629!2d82.71004287523095!3d25.766250477349104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399039010272e529%3A0x98b4e3a8e9f358d6!2sRK%20sahu%20junior%20high%20school!5e0!3m2!1sen!2sin!4v1754566714372!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'''
 
 def home(request):
     notices = Notice.objects.order_by('-created_at')[:5]  # latest 5 notices
